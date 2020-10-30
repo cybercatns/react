@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+var myName = "sahan";
+
 ReactDOM.render(
-  <h1>Hello World React !!!!</h1>,
+  <div>
+    <h1>Hello World React !!{myName}!!</h1>
+    <p>This is a new paragraph</p>
+  </div>,
   document.getElementById("root"),
 )
 
